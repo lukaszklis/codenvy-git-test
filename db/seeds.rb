@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+1...5.each do |i|
+  Idea.create(name: "Idea ##{i}", description: "Idea's description ##{i}")
+end
